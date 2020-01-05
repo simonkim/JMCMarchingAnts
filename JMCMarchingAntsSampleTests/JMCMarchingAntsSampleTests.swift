@@ -1,6 +1,6 @@
 //
-//  JMCMarchingAntsTests.swift
-//  JMCMarchingAntsTests
+//  JMCMarchingAntsSampleTests.swift
+//  JMCMarchingAntsSampleTests
 //
 //  Created by Janusz Chudzynski on 10/5/15.
 //  Copyright (c) 2015 Janusz Chudzynski. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class JMCMarchingAntsTests: XCTestCase {
+class JMCMarchingAntsSampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -28,7 +28,7 @@ class JMCMarchingAntsTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock() {
+        self.measure() {
             // Put the code you want to measure the time of here.
         }
     }

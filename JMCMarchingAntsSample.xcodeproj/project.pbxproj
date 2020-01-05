@@ -14,9 +14,8 @@
 		4049CD861BC2D43F00F1E353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4049CD841BC2D43F00F1E353 /* Main.storyboard */; };
 		4049CD881BC2D43F00F1E353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4049CD871BC2D43F00F1E353 /* Images.xcassets */; };
 		4049CD8B1BC2D43F00F1E353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4049CD891BC2D43F00F1E353 /* LaunchScreen.xib */; };
-		4049CD971BC2D43F00F1E353 /* JMCMarchingAntsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049CD961BC2D43F00F1E353 /* JMCMarchingAntsTests.swift */; };
+		4049CD971BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049CD961BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift */; };
 		4049CDA41BC2D54B00F1E353 /* JMCMarchingAnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049CDA31BC2D54B00F1E353 /* JMCMarchingAnts.swift */; };
-		4049CDA51BC2D54B00F1E353 /* JMCMarchingAnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049CDA31BC2D54B00F1E353 /* JMCMarchingAnts.swift */; };
 		F4BC215223C187CD00A60704 /* CGPointNeighbor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC215123C187CD00A60704 /* CGPointNeighbor.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,16 +31,16 @@
 
 /* Begin PBXFileReference section */
 		4026614B1BE7F52400BF39D6 /* 038420-glossy-black-icon-transport-travel-transportation-car9-sc44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "038420-glossy-black-icon-transport-travel-transportation-car9-sc44.png"; sourceTree = "<group>"; };
-		4049CD781BC2D43F00F1E353 /* JMCMarchingAnts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMCMarchingAnts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4049CD781BC2D43F00F1E353 /* JMCMarchingAntsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMCMarchingAntsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4049CD7C1BC2D43F00F1E353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4049CD7D1BC2D43F00F1E353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4049CD821BC2D43F00F1E353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4049CD851BC2D43F00F1E353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4049CD871BC2D43F00F1E353 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4049CD8A1BC2D43F00F1E353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4049CD901BC2D43F00F1E353 /* JMCMarchingAntsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMCMarchingAntsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4049CD901BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMCMarchingAntsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4049CD951BC2D43F00F1E353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4049CD961BC2D43F00F1E353 /* JMCMarchingAntsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMCMarchingAntsTests.swift; sourceTree = "<group>"; };
+		4049CD961BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMCMarchingAntsSampleTests.swift; sourceTree = "<group>"; };
 		4049CDA31BC2D54B00F1E353 /* JMCMarchingAnts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMCMarchingAnts.swift; sourceTree = "<group>"; };
 		F4BC215123C187CD00A60704 /* CGPointNeighbor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointNeighbor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,8 +66,8 @@
 		4049CD6F1BC2D43F00F1E353 = {
 			isa = PBXGroup;
 			children = (
-				4049CD7A1BC2D43F00F1E353 /* JMCMarchingAnts */,
-				4049CD931BC2D43F00F1E353 /* JMCMarchingAntsTests */,
+				4049CD7A1BC2D43F00F1E353 /* JMCMarchingAntsSample */,
+				4049CD931BC2D43F00F1E353 /* JMCMarchingAntsSampleTests */,
 				4049CD791BC2D43F00F1E353 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,13 +75,13 @@
 		4049CD791BC2D43F00F1E353 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4049CD781BC2D43F00F1E353 /* JMCMarchingAnts.app */,
-				4049CD901BC2D43F00F1E353 /* JMCMarchingAntsTests.xctest */,
+				4049CD781BC2D43F00F1E353 /* JMCMarchingAntsSample.app */,
+				4049CD901BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4049CD7A1BC2D43F00F1E353 /* JMCMarchingAnts */ = {
+		4049CD7A1BC2D43F00F1E353 /* JMCMarchingAntsSample */ = {
 			isa = PBXGroup;
 			children = (
 				4049CD7D1BC2D43F00F1E353 /* AppDelegate.swift */,
@@ -95,7 +94,7 @@
 				4026614B1BE7F52400BF39D6 /* 038420-glossy-black-icon-transport-travel-transportation-car9-sc44.png */,
 				4049CD7B1BC2D43F00F1E353 /* Supporting Files */,
 			);
-			path = JMCMarchingAnts;
+			path = JMCMarchingAntsSample;
 			sourceTree = "<group>";
 		};
 		4049CD7B1BC2D43F00F1E353 /* Supporting Files */ = {
@@ -106,13 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4049CD931BC2D43F00F1E353 /* JMCMarchingAntsTests */ = {
+		4049CD931BC2D43F00F1E353 /* JMCMarchingAntsSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				4049CD961BC2D43F00F1E353 /* JMCMarchingAntsTests.swift */,
+				4049CD961BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift */,
 				4049CD941BC2D43F00F1E353 /* Supporting Files */,
 			);
-			path = JMCMarchingAntsTests;
+			path = JMCMarchingAntsSampleTests;
 			sourceTree = "<group>";
 		};
 		4049CD941BC2D43F00F1E353 /* Supporting Files */ = {
@@ -126,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4049CD771BC2D43F00F1E353 /* JMCMarchingAnts */ = {
+		4049CD771BC2D43F00F1E353 /* JMCMarchingAntsSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4049CD9A1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAnts" */;
+			buildConfigurationList = 4049CD9A1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAntsSample" */;
 			buildPhases = (
 				4049CD741BC2D43F00F1E353 /* Sources */,
 				4049CD751BC2D43F00F1E353 /* Frameworks */,
@@ -138,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = JMCMarchingAnts;
+			name = JMCMarchingAntsSample;
 			productName = JMCMarchingAnts;
-			productReference = 4049CD781BC2D43F00F1E353 /* JMCMarchingAnts.app */;
+			productReference = 4049CD781BC2D43F00F1E353 /* JMCMarchingAntsSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4049CD8F1BC2D43F00F1E353 /* JMCMarchingAntsTests */ = {
+		4049CD8F1BC2D43F00F1E353 /* JMCMarchingAntsSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4049CD9D1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAntsTests" */;
+			buildConfigurationList = 4049CD9D1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAntsSampleTests" */;
 			buildPhases = (
 				4049CD8C1BC2D43F00F1E353 /* Sources */,
 				4049CD8D1BC2D43F00F1E353 /* Frameworks */,
@@ -156,9 +155,9 @@
 			dependencies = (
 				4049CD921BC2D43F00F1E353 /* PBXTargetDependency */,
 			);
-			name = JMCMarchingAntsTests;
+			name = JMCMarchingAntsSampleTests;
 			productName = JMCMarchingAntsTests;
-			productReference = 4049CD901BC2D43F00F1E353 /* JMCMarchingAntsTests.xctest */;
+			productReference = 4049CD901BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +180,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4049CD731BC2D43F00F1E353 /* Build configuration list for PBXProject "JMCMarchingAnts" */;
+			buildConfigurationList = 4049CD731BC2D43F00F1E353 /* Build configuration list for PBXProject "JMCMarchingAntsSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,8 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4049CD771BC2D43F00F1E353 /* JMCMarchingAnts */,
-				4049CD8F1BC2D43F00F1E353 /* JMCMarchingAntsTests */,
+				4049CD771BC2D43F00F1E353 /* JMCMarchingAntsSample */,
+				4049CD8F1BC2D43F00F1E353 /* JMCMarchingAntsSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,8 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4049CD971BC2D43F00F1E353 /* JMCMarchingAntsTests.swift in Sources */,
-				4049CDA51BC2D54B00F1E353 /* JMCMarchingAnts.swift in Sources */,
+				4049CD971BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +247,7 @@
 /* Begin PBXTargetDependency section */
 		4049CD921BC2D43F00F1E353 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4049CD771BC2D43F00F1E353 /* JMCMarchingAnts */;
+			target = 4049CD771BC2D43F00F1E353 /* JMCMarchingAntsSample */;
 			targetProxy = 4049CD911BC2D43F00F1E353 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -363,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = JMCMarchingAnts/Info.plist;
+				INFOPLIST_FILE = JMCMarchingAntsSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = JMCMarchingAnts/Info.plist;
+				INFOPLIST_FILE = JMCMarchingAntsSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,21 +388,18 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = JMCMarchingAntsTests/Info.plist;
+				INFOPLIST_FILE = JMCMarchingAntsSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCMarchingAnts.app/JMCMarchingAnts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCMarchingAntsSample.app/JMCMarchingAntsSample";
 			};
 			name = Debug;
 		};
@@ -413,23 +408,20 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JMCMarchingAntsTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = JMCMarchingAntsSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCMarchingAnts.app/JMCMarchingAnts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMCMarchingAntsSample.app/JMCMarchingAntsSample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4049CD731BC2D43F00F1E353 /* Build configuration list for PBXProject "JMCMarchingAnts" */ = {
+		4049CD731BC2D43F00F1E353 /* Build configuration list for PBXProject "JMCMarchingAntsSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4049CD981BC2D43F00F1E353 /* Debug */,
@@ -438,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4049CD9A1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAnts" */ = {
+		4049CD9A1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAntsSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4049CD9B1BC2D43F00F1E353 /* Debug */,
@@ -447,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4049CD9D1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAntsTests" */ = {
+		4049CD9D1BC2D43F00F1E353 /* Build configuration list for PBXNativeTarget "JMCMarchingAntsSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4049CD9E1BC2D43F00F1E353 /* Debug */,
