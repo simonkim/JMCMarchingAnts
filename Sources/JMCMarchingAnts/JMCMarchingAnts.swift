@@ -269,17 +269,17 @@ extension UIImage{
 
 
 //Main Class responsible for marching ants
-class JMCMarchingAnts: NSObject {
+public class JMCMarchingAnts: NSObject {
     var visitedArray: [Bool]! //visited points
     var data: UnsafePointer<UInt8>! //pixel data
     
 //Adds ants to the view's layer
     
-    func addAnts(_ image:UIImage, imageView: UIView){
+    public func addAnts(_ image:UIImage, imageView: UIView){
         try? addAnts(image: image, imageView: imageView)
     }
     
-    func addAnts(image:UIImage, imageView: UIView) throws {
+    public func addAnts(image:UIImage, imageView: UIView) throws {
         let inverted =  try UIImage.invertImageWithBlackBackground(foregroundImage: image, frame: imageView.bounds)
         let edges = try inverted.findEdges();
         let selectionLayer = try self.getSelectionLayer(image: edges, imageView: imageView)

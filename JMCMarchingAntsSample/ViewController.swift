@@ -24,6 +24,7 @@ along with JMCMarchingAnts.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 import UIKit
+import JMCMarchingAnts
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!

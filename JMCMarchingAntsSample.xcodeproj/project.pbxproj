@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,8 +15,7 @@
 		4049CD881BC2D43F00F1E353 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4049CD871BC2D43F00F1E353 /* Images.xcassets */; };
 		4049CD8B1BC2D43F00F1E353 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4049CD891BC2D43F00F1E353 /* LaunchScreen.xib */; };
 		4049CD971BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049CD961BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift */; };
-		4049CDA41BC2D54B00F1E353 /* JMCMarchingAnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4049CDA31BC2D54B00F1E353 /* JMCMarchingAnts.swift */; };
-		F4BC215223C187CD00A60704 /* CGPointNeighbor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BC215123C187CD00A60704 /* CGPointNeighbor.swift */; };
+		F4A42FE423C1955700FBF6A6 /* JMCMarchingAnts in Frameworks */ = {isa = PBXBuildFile; productRef = F4A42FE323C1955700FBF6A6 /* JMCMarchingAnts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +40,7 @@
 		4049CD901BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMCMarchingAntsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4049CD951BC2D43F00F1E353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4049CD961BC2D43F00F1E353 /* JMCMarchingAntsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMCMarchingAntsSampleTests.swift; sourceTree = "<group>"; };
-		4049CDA31BC2D54B00F1E353 /* JMCMarchingAnts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMCMarchingAnts.swift; sourceTree = "<group>"; };
-		F4BC215123C187CD00A60704 /* CGPointNeighbor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointNeighbor.swift; sourceTree = "<group>"; };
+		F4A42FE123C194C600FBF6A6 /* JMCMarchingAnts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JMCMarchingAnts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A42FE423C1955700FBF6A6 /* JMCMarchingAnts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,9 +65,11 @@
 		4049CD6F1BC2D43F00F1E353 = {
 			isa = PBXGroup;
 			children = (
+				F4A42FE123C194C600FBF6A6 /* JMCMarchingAnts */,
 				4049CD7A1BC2D43F00F1E353 /* JMCMarchingAntsSample */,
 				4049CD931BC2D43F00F1E353 /* JMCMarchingAntsSampleTests */,
 				4049CD791BC2D43F00F1E353 /* Products */,
+				F4A42FE223C1955700FBF6A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,8 +87,6 @@
 			children = (
 				4049CD7D1BC2D43F00F1E353 /* AppDelegate.swift */,
 				4049CD821BC2D43F00F1E353 /* ViewController.swift */,
-				4049CDA31BC2D54B00F1E353 /* JMCMarchingAnts.swift */,
-				F4BC215123C187CD00A60704 /* CGPointNeighbor.swift */,
 				4049CD841BC2D43F00F1E353 /* Main.storyboard */,
 				4049CD871BC2D43F00F1E353 /* Images.xcassets */,
 				4049CD891BC2D43F00F1E353 /* LaunchScreen.xib */,
@@ -122,6 +121,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F4A42FE223C1955700FBF6A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +144,9 @@
 			dependencies = (
 			);
 			name = JMCMarchingAntsSample;
+			packageProductDependencies = (
+				F4A42FE323C1955700FBF6A6 /* JMCMarchingAnts */,
+			);
 			productName = JMCMarchingAnts;
 			productReference = 4049CD781BC2D43F00F1E353 /* JMCMarchingAntsSample.app */;
 			productType = "com.apple.product-type.application";
@@ -228,8 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4049CD831BC2D43F00F1E353 /* ViewController.swift in Sources */,
-				4049CDA41BC2D54B00F1E353 /* JMCMarchingAnts.swift in Sources */,
-				F4BC215223C187CD00A60704 /* CGPointNeighbor.swift in Sources */,
 				4049CD7E1BC2D43F00F1E353 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +369,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JMCMarchingAntsSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -376,7 +386,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JMCMarchingAntsSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -394,7 +407,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = JMCMarchingAntsSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -410,7 +427,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = JMCMarchingAntsSampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jmc.quiz.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -449,6 +470,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4A42FE323C1955700FBF6A6 /* JMCMarchingAnts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JMCMarchingAnts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4049CD701BC2D43F00F1E353 /* Project object */;
 }
